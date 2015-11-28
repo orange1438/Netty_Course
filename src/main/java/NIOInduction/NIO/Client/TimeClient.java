@@ -1,4 +1,4 @@
-package NIO.Client;
+package NIOInduction.NIO.Client;
 
 /**
  * Created by IntelliJ IDEA 14.

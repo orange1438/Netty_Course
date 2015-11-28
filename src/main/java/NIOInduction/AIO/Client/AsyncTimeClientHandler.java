@@ -1,4 +1,4 @@
-package AIO.Client;
+package NIOInduction.AIO.Client;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;

@@ -1,4 +1,4 @@
-package NIO.Server;
+package NIOInduction.NIO.Server;
 
 import java.io.IOException;
 import java.nio.channels.MulticastChannel;

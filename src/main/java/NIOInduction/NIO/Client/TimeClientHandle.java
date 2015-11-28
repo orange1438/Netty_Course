@@ -1,4 +1,4 @@
-package NIO.Client;
+package NIOInduction.NIO.Client;
 
 import com.sun.scenario.effect.impl.prism.PrImage;
 

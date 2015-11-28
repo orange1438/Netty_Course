@@ -1,6 +1,4 @@
-package BIO.Server;
-
-import BIO.Server.TimeServerHandler;
+package NIOInduction.BIO.Server;
 
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -29,7 +27,7 @@ public class TimeServer {
             Socket socket = null;
             while (true){
                 socket=server.accept();
-                new Thread(new TimeServerHandler(socket)).start();
+                new Thread(new NIOInduction.BIO.Server.TimeServerHandler(socket)).start();
             }
         }
         finally {
