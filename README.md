@@ -14,3 +14,6 @@
 
 ## <a target=_blank href="http://www.cnblogs.com/orange1438/p/5009769.html">Netty（三）TCP粘包拆包处理</a>
 	重写《Netty（二）入门》中的TimeServer的程序，使用LineBasedFrameDecoder 和 StringDecoder编码器解决“粘包”、“拆包”的情况。
+	
+## <a target=_blank href="http://www.cnblogs.com/orange1438/p/5028697.html">Netty（四）分隔符与定长解码器</a>
+	使用FixedLengthFrameDecoder和 DelimiterBasedFrameDecoder编码器解决“粘包”、“拆包”的情况。
