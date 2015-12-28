@@ -39,6 +39,12 @@ public class ReqServer {
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                         @Override
                         public void initChannel(SocketChannel ch){
+                            // protobufDecoder仅仅负责编码，并不支持读半包，所以在之前，一定要有读半包的处理器。
+                            // 有三种方式可以选择：
+                            // 使用netty提供ProtobufVarint32FrameDecoder
+                            // 继承netty提供的通用半包处理器 LengthFieldBasedFrameDecoder
+                            // 继承ByteToMessageDecoder类，自己处理半包
+
                             // 半包的处理
                             ch.pipeline().addLast(new ProtobufVarint32FrameDecoder());
                             // 需要解码的目标类

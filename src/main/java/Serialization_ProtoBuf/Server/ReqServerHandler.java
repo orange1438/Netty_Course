@@ -6,8 +6,6 @@ import io.netty.channel.ChannelHandler.Sharable;
 import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
 
-import java.nio.channels.Channel;
-
 /**
  * Created by IntelliJ IDEA 14.
  * User: karl.zhao
