@@ -21,5 +21,5 @@
 ## <a target=_blank href="http://www.cnblogs.com/orange1438/p/5075318.html">Netty（五）序列化protobuf在netty中的使用</a>
 	使用ProtobufDecoder等Protobuf等编码器解决“使用Protobuf序列化”的情况。
 
-## <a target=_blank href="#">Netty（六）Udp协议在netty中的使用</a>
+## <a target=_blank href="http://www.cnblogs.com/orange1438/p/5148850.html">Netty（六）Udp协议在netty中的使用</a>
     UDP不需要建立链路，所有代码很简单。
