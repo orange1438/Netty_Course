@@ -1,22 +1,25 @@
 # Netty_Course
 
-## <a target=_blank href="http://www.cnblogs.com/orange1438/p/4994375.html">Netty(Ò»)ÒýÌâNIOInduction</a>
-	½éÉÜJava BIO£¨Í¬²½×èÈûIO£©¡¢  
-	PseudoAsynchronousIO(Î±Òì²½IO)¡¢  
-	NIO£¨·Ç×èÈûIO£©¡¢  
-	AIO£¨Òì²½IO£©¡¢
-	ÕâËÄÖÖIOµÄÇé¿ö£¬²¢¶Ô²»Í¬IOÄ£ÐÍ×÷±È½Ï¡£
+## <a target=_blank href="http://www.cnblogs.com/orange1438/p/4994375.html">Netty(ä¸€)å¼•é¢˜NIOInduction</a>
+	ä»‹ç»Java BIOï¼ˆåŒæ­¥é˜»å¡žIOï¼‰ã€  
+	PseudoAsynchronousIO(ä¼ªå¼‚æ­¥IO)ã€  
+	NIOï¼ˆéžé˜»å¡žIOï¼‰ã€  
+	AIOï¼ˆå¼‚æ­¥IOï¼‰ã€
+	è¿™å››ç§IOçš„æƒ…å†µï¼Œå¹¶å¯¹ä¸åŒIOæ¨¡åž‹ä½œæ¯”è¾ƒã€‚
 	
 
-## <a target=_blank href="http://www.cnblogs.com/orange1438/p/5003080.html">Netty£¨¶þ£©ÈëÃÅ</a>
-	Ê¹ÓÃIDEA 14 + Maven¹¤¾ß£¬ÓÃnetty5.0Ð´TimeServerµÄ³ÌÐò£¨Ã»½â¾öÕ³°ü¡¢²ð°üÇé¿ö£©¡£
+## <a target=_blank href="http://www.cnblogs.com/orange1438/p/5003080.html">Nettyï¼ˆäºŒï¼‰å…¥é—¨</a>
+	ä½¿ç”¨IDEA 14 + Mavenå·¥å…·ï¼Œç”¨netty5.0å†™TimeServerçš„ç¨‹åºï¼ˆæ²¡è§£å†³ç²˜åŒ…ã€æ‹†åŒ…æƒ…å†µï¼‰ã€‚
 	
 
-## <a target=_blank href="http://www.cnblogs.com/orange1438/p/5009769.html">Netty£¨Èý£©TCPÕ³°ü²ð°ü´¦Àí</a>
-	ÖØÐ´¡¶Netty£¨¶þ£©ÈëÃÅ¡·ÖÐµÄTimeServerµÄ³ÌÐò£¬Ê¹ÓÃLineBasedFrameDecoder ºÍ StringDecoder±àÂëÆ÷½â¾ö¡°Õ³°ü¡±¡¢¡°²ð°ü¡±µÄÇé¿ö¡£
+## <a target=_blank href="http://www.cnblogs.com/orange1438/p/5009769.html">Nettyï¼ˆä¸‰ï¼‰TCPç²˜åŒ…æ‹†åŒ…å¤„ç†</a>
+	é‡å†™ã€ŠNettyï¼ˆäºŒï¼‰å…¥é—¨ã€‹ä¸­çš„TimeServerçš„ç¨‹åºï¼Œä½¿ç”¨LineBasedFrameDecoder å’Œ StringDecoderç¼–ç å™¨è§£å†³â€œç²˜åŒ…â€ã€â€œæ‹†åŒ…â€çš„æƒ…å†µã€‚
 
-## <a target=_blank href="http://www.cnblogs.com/orange1438/p/5028697.html">Netty£¨ËÄ£©·Ö¸ô·ûÓë¶¨³¤½âÂëÆ÷</a>
-	Ê¹ÓÃFixedLengthFrameDecoderºÍ DelimiterBasedFrameDecoder±àÂëÆ÷½â¾ö¡°Õ³°ü¡±¡¢¡°²ð°ü¡±µÄÇé¿ö¡£
+## <a target=_blank href="http://www.cnblogs.com/orange1438/p/5028697.html">Nettyï¼ˆå››ï¼‰åˆ†éš”ç¬¦ä¸Žå®šé•¿è§£ç å™¨</a>
+	ä½¿ç”¨FixedLengthFrameDecoderå’Œ DelimiterBasedFrameDecoderç¼–ç å™¨è§£å†³â€œç²˜åŒ…â€ã€â€œæ‹†åŒ…â€çš„æƒ…å†µã€‚
 
-## <a target=_blank href="http://www.cnblogs.com/orange1438/p/5075318.html">Netty£¨Îå£©ÐòÁÐ»¯protobufÔÚnettyÖÐµÄÊ¹ÓÃ</a>
-	Ê¹ÓÃProtobufDecoderµÈProtobufµÈ±àÂëÆ÷½â¾ö¡°Ê¹ÓÃProtobufÐòÁÐ»¯¡±µÄÇé¿ö¡£
+## <a target=_blank href="http://www.cnblogs.com/orange1438/p/5075318.html">Nettyï¼ˆäº”ï¼‰åºåˆ—åŒ–protobufåœ¨nettyä¸­çš„ä½¿ç”¨</a>
+	ä½¿ç”¨ProtobufDecoderç­‰Protobufç­‰ç¼–ç å™¨è§£å†³â€œä½¿ç”¨Protobufåºåˆ—åŒ–â€çš„æƒ…å†µã€‚
+
+## <a target=_blank href="#">Nettyï¼ˆå…­ï¼‰Udpåè®®åœ¨nettyä¸­çš„ä½¿ç”¨</a>
+    UDPä¸éœ€è¦å»ºç«‹é“¾è·¯ï¼Œæ‰€æœ‰ä»£ç å¾ˆç®€å•ã€‚
